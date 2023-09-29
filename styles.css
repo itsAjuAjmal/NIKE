@@ -1,0 +1,507 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+    background-color: white;
+}
+section h1{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family:'Tilt Warp', cursive;
+    font-size: 70px;
+    text-align: center;
+   
+
+}
+h5{
+    text-align: center;
+    padding-top: 40px;
+}
+
+header{
+    width: 100%;
+    height: 160px;
+    background-color:#f5f5f5;
+  
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    position:relative;
+   
+}
+
+nav img{
+    height: 20px;
+    width: 20px;
+    margin-right: 680px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    color: transparent;
+    margin-right:50px;
+    box-sizing: border-box;
+}
+
+nav a{
+   
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: small;
+    display: inline-block;
+}
+nav li a:hover{
+    color: #9d9d9d;
+}
+nav li img:hover{
+    filter:opacity(50%);
+}
+nav b{
+    color: black;
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+}
+.search-container{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-sizing: border-box;
+    align-items: center;
+    position:fixed;
+   z-index: 10;
+    
+}
+.search-container img{
+    width: 75px;
+    margin-left: 40px;
+    float: left;
+    margin-top: px;
+}
+
+.search-container ul{
+    display: flex;
+    color: transparent;
+    margin-right:50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 230px;
+
+    
+}
+
+.search-container li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: inline-block;
+   padding-bottom: 14px;
+   border-bottom: transparent solid;
+   border-width: 3px;
+   
+   
+}
+.search-container li a:hover{
+   
+   border-bottom: black solid;
+   border-width: 2px;
+   
+}
+
+.search{
+ border-radius:24px;
+ border-color: transparent;
+ background:#f5f5f5;
+ width: 180px;
+ height: 40px;
+ padding: 8px 48px;
+ margin-top: -15px;
+ margin-left: -25px;
+ padding-top: -15px;
+ vertical-align:text-top;
+ 
+
+ 
+ 
+}
+#search-icon{
+    width:38px;
+    height: 38px;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 2px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: -25px;
+    
+
+}
+.search:hover{
+    background-color:#e5e5e5;
+}
+#search-icon:hover{
+    background-color:#e5e5e5;
+}
+
+.imp-icon{
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width:38px;
+    height: 38px;
+    margin-top: 11px;
+    margin-left: 2px;
+    border-radius: 50%;
+    padding: 8px;
+   
+   
+}
+.imp-icon:hover{
+   background-color: #e5e5e5;
+}
+
+#carouselSlides {
+    /* background-color: rgb(41, 87, 87); */
+    margin-top: 60px;
+ text-align: center;
+ width: 100%;
+ height: 60px;
+ position: absolute;
+
+}
+
+#carouselSlides p{
+    font-size: smaller;
+    color: black;
+    font-weight: 500;
+   
+}
+#carouselSlides a{
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    
+}
+#carouselSlides .main-text{
+    font-size: large;
+   font-weight: 400;
+   margin-bottom: -20px;
+  padding: 0%;
+ 
+   
+}
+
+/* ============= Body stant from here ========== */
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.video-container{
+    position: relative;
+    margin-top: -20px;
+    
+}
+
+.main-video{
+    width: 100%;
+    /* transform:rotate(90deg); */
+   
+}
+
+section{
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    
+}
+section p{
+    text-align: center;
+    font-weight: 100;
+    font-family: roboto;
+}
+section button{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-items: center;
+    width: 75px;
+    height: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-color:transparent;
+    
+    
+}
+section h3{
+   
+    font-weight: 500;
+    padding: 10px;
+   
+    
+}
+section img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+.card{
+   float: left;
+    height: 500px;
+    padding: 0;
+    width:50%;
+   border: transparent;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.card-img{
+    
+    height:700px;
+    object-fit:cover;
+    padding: 0%;
+    
+}
+.card h5{
+    position: absolute;
+    color: white;
+    bottom: 110px;
+    left: 50px;
+}
+.card a{
+    width: 150px;
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    background-color:white;
+    color: black;
+    font-weight: 500;
+    border-radius: 24px;
+    bottom: 50px;
+    left: 50px;   
+}
+
+
+#nike-tech-video{
+    width: 100%;
+   
+}
+h3{
+    padding-top: 100px;
+  
+}
+
+/* ================ SECOND CARD DESIGN ===============  */
+
+
+
+.card-2{
+    float: left;
+    position: relative;
+    height: 500px;
+    width: 600px;
+    margin-bottom: 100px;
+   
+    object-fit:fill;
+}
+.card-2-img{
+   
+    width:100%;
+    height:500px;
+    object-fit: fill;
+    overflow: hidden;
+    
+}
+
+.card-2 a{
+   
+    height: 40px;
+    border: transparent;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-radius: 24px;
+    bottom: 30px;
+    left: 50px;
+    justify-content: center;
+    
+}
+
+/* ======================  Table  ==================== */
+
+table{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+table th,td{
+    padding-left: 60px;
+    text-transform: capitalize;
+}
+teble th,td:hover{
+    color:gray;
+   
+  
+}
+
+
+/* ======================  Footer  ==================== */
+
+footer{
+    width: 100%;
+    background-color:#111111;
+    height: 380px;
+}
+
+footer ul{
+    padding-top: 30px;
+    list-style: none;
+    float: left;
+    padding-right:20px;
+}
+footer li{
+    padding-top: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer p{
+    font-weight: 100;
+    font-size:small;
+    font-style: normal;
+    color: #9d9d9d;
+    padding: 0;
+    margin: 0;
+}
+footer p:hover{
+    color: white;
+}
+.footer-icons{
+    padding-left: 800px;
+}
+.footer-icon{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #000000;
+    float: left;
+   background-color: rgb(106, 106, 106);
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   font-size: 24px;
+   text-align: center;
+  align-items: center;
+}
+.footer-icon:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-icon i{
+    text-align: center;
+    align-items: center;
+    
+}
+#copy-right{
+   position: absolute;
+  margin-top: 350px;
+   color: rgb(118, 118, 118);
+   margin-left: 100px;
+}
+.policy-table{
+    padding: 0;
+    width:  400px;
+   
+}
+.policy-table p{
+    padding: 0%;
+    margin: 0;
+    margin-top: 280px;
+    margin-left: 40px;
+    white-space:nowrap;
+}
+.policy-table th,.policy-table tr{
+    padding: 0%;
+    margin: 0;
+    
+}
+
+
+/* ============ RESPONCE START FROM HERE ============ */
+
+
+@media (max-width:1000px){
+    .navigation{
+        display:none;
+    }
+    .search{
+        display:none;
+    }
+    .search-container ul{
+        display: none;
+    }
+   section h1{
+        font-size:55px;
+    }
+    header{
+        height: 120px;
+    }
+
+    /* #search-icon{
+       float: right;
+       margin-left: 300px;
+       float: left;
+    } */
+    .footer-icons{
+       display: none;
+    }
+    section{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .fave-icon{
+        
+        margin-left: 400px;
+    }
+    #copy-right{
+        display:none;
+    }
+    .policy-table {
+        display:none;
+    }
+    
+
+}
+
+@media (max-width:500px){
+#catlogue tr{
+    display: none ;
+}
+.fave-icon{
+        
+    margin-left: 350px;
+}
+footer{
+    height: 600px;
+}
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section .card{
+    margin-left: 0;
+    margin-right: 0;
+}
+}
